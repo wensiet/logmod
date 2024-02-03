@@ -2,9 +2,9 @@ package logmod
 
 import (
 	"fmt"
-	"github.com/grafana/loki-client-go/loki"
-	slogloki "github.com/samber/slog-loki/v3"
 	slogmulti "github.com/samber/slog-multi"
+	"github.com/wensiet/logmod/loki"
+	"github.com/wensiet/logmod/slogloki"
 	"log/slog"
 	"os"
 )
